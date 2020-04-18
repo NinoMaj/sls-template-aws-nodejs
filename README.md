@@ -34,7 +34,7 @@ serverless create --template-path ./template-aws-nodejs --path my-new-service
 serverless
 ```
 
-### Deploy serivce
+### Deploy service
 
 ```sh
 serverless deploy
