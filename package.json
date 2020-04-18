@@ -5,6 +5,9 @@
   "scripts": {
     "test": "mocha src/tests"
   },
+  "prettier": {
+    "semi": false
+  },
   "dependencies": {},
   "devDependencies": {
     "aws-sdk": "^2.658.0",
