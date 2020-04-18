@@ -10,6 +10,12 @@ serverless create --template aws-nodejs
 serverless create function -f testFunction --handler src/functions/testFunction.testFunction --path src/tests/
 ```
 
+### Create createUser function
+
+```sh
+serverless create function -f createUser --handler src/functions/createUser.createUser --path src/tests/
+```
+
 ### Run tests
 
 ```sh
