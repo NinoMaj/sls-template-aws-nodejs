@@ -19,5 +19,5 @@ npm run test
 ### Creating new service from template
 
 ```sh
-serverless create --template-path ../template-aws-nodejs --path my-new-service
+serverless create --template-path ./template-aws-nodejs --path my-new-service
 ```
