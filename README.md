@@ -22,7 +22,7 @@ serverless create function -f createUser --handler src/functions/createUser.crea
 npm run test
 ```
 
-### Creating new service from templates
+### Creating new service from template
 
 ```sh
 serverless create --template-path ./template-aws-nodejs --path my-new-service
