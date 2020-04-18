@@ -27,3 +27,9 @@ npm run test
 ```sh
 serverless create --template-path ./template-aws-nodejs --path my-new-service
 ```
+
+### Connecting service with app
+
+```sh
+serverless
+```
