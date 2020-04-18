@@ -39,3 +39,9 @@ serverless
 ```sh
 serverless deploy
 ```
+
+### Open dashboard
+
+```sh
+serverless dashboard
+```
