@@ -3,7 +3,9 @@
   "description": "",
   "version": "0.1.0",
   "scripts": {
-    "test": "mocha src/tests"
+    "test": "mocha src/tests",
+    "prettier": "prettier --check \"src/**/*\"",
+    "prettier-fix": "prettier --write  \"src/**/*\""
   },
   "prettier": {
     "semi": false
@@ -13,6 +15,7 @@
     "aws-sdk": "^2.658.0",
     "aws-sdk-mock": "^5.1.0",
     "mocha": "^7.1.1",
+    "prettier": "^2.0.4",
     "serverless-mocha": "^1.12.0",
     "serverless-pseudo-parameters": "^2.5.0"
   }
