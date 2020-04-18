@@ -16,7 +16,7 @@ serverless create function -f testFunction --handler src/functions/testFunction.
 npm run test
 ```
 
-### Creating new service from template
+### Creating new service from templates
 
 ```sh
 serverless create --template-path ./template-aws-nodejs --path my-new-service
